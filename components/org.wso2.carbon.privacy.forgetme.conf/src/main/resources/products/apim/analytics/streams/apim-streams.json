@@ -1,0 +1,104 @@
+{
+  "streams": [
+    {
+      "streamName": "org.wso2.analytics.apim.abnormalRequestsPerMinAlertStreams",
+      "attributes": ["userId", "applicationOwner"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.accessTokenRefreshTimeDifference",
+      "attributes": ["userId"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.alert.abnormalTokenRefresh",
+      "attributes": ["userId"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.alert.unusualIPAccess",
+      "attributes": ["userId", "ip", "applicationOwner"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.alertStakeholderInfo",
+      "attributes": ["userId", "emails"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.ipAccessSummary",
+      "attributes": ["userId", "ip"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.requestPatternChangedStream",
+      "attributes": ["userId", "applicationOwner"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.requestPerMinStream",
+      "attributes": ["userId"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.requestPercentile",
+      "attributes": ["userId"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.requestStatStream",
+      "attributes": ["userId"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.stateStream",
+      "attributes": ["userId", "applicationOwner"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.tierLimitHittingAlert",
+      "attributes": ["subscriber"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.analytics.apim.transitionStream",
+      "attributes": ["userId", "applicationOwner"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.apimgt.statistics.fault",
+      "attributes": ["userId", "applicationOwner"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.apimgt.statistics.perMinuteRequest",
+      "attributes": ["userId", "applicationOwner", "clientIp"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.apimgt.statistics.perMinuteResponse",
+      "attributes": ["username"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.apimgt.statistics.request",
+      "attributes": ["userId", "applicationOwner", "clientIp"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.apimgt.statistics.response",
+      "attributes": ["username"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.apimgt.statistics.throttle",
+      "attributes": ["userId", "subscriber"],
+      "id": "username"
+    },
+    {
+      "streamName": "org.wso2.carbon.identity.oauth.token.issuance",
+      "attributes": ["user"],
+      "id": "username"
+    }
+  ]
+}
